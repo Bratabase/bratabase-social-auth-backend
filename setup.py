@@ -19,7 +19,7 @@ history = open('HISTORY.md').read().replace('.. :changelog:', '')
 
 setup(
     name='bratabase-social-auth-backend',
-    version='0.1.0',
+    version='0.1.1',
     description='OAuth2 Backend for Bratabase.com to be used with Django-social-auth',
     long_description=readme + '\n\n' + history,
     author='Jj',
