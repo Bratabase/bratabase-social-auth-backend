@@ -39,7 +39,7 @@ class BratabaseAuth(BaseOAuth2):
     SETTINGS_SECRET_NAME = 'BRATABASE_API_SECRET'
     SCOPE_VAR_NAME = 'BRATABASE_EXTENDED_PERMISSIONS'
     DEFAULT_SCOPE = ['identity']
-    ME_URL = 'https://api.bratabase.com/v0/me/'
+    ME_URL = 'https://api.bratabase.com/me/'
     AUTHORIZATION_URL ='http://www.bratabase.com/oauth/authorize/'
     ACCESS_TOKEN_URL = 'http://www.bratabase.com/oauth/token/'
 
